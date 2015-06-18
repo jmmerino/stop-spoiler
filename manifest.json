@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "My extension",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["css/style.css"],
+      "js": ["js/settings.js", "js/jquery.min.js", "js/stopspoiler.js"]
+    }
+  ]
+}
